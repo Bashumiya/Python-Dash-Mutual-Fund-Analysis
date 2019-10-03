@@ -35,7 +35,7 @@ sbi_last_nav=SBIBlueChip.iloc[[sbi_max_row-1],[1]].values
 sbi_prev_nav=SBIBlueChip.iloc[[sbi_max_row-2],[1]].values
 sbidatediff= round(float(sbi_last_nav - sbi_prev_nav),2)
 sbi_latest_date="".join(map(str, SBIBlueChip.iloc[[sbi_max_row-1],[0]].values))[2:-2]
-
+   
 brl_last_nav=BirlaSmallCap.iloc[[Birla_max_row-1],[1]].values
 brl_prev_nav=BirlaSmallCap.iloc[[Birla_max_row-2],[1]].values
 brldatediff= round(float(brl_last_nav - brl_prev_nav),2)
